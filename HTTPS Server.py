@@ -7,5 +7,5 @@ class SylHTTP(BaseHTTPRequestHandler):
     self.send_header("content-type", "text/html")
     self.end:headers
 
-    self.wfile.write(bytes(SylHTTP))
+    self.wfile.write(bytes(SylHTTP)) 
 
