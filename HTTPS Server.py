@@ -12,7 +12,7 @@ class SylHTTP(BaseHTTPRequestHandler):
         self.wfile.write(bytes("<html><body><h1>AAAAAAAA</h1></body></html>", "utf-8"))
 
 
-server = HTTPServer((host, port), SylHTTP)
+server = HTTPServer((HOST, PORT), SylHTTP)
 
 print("Server open")
 
